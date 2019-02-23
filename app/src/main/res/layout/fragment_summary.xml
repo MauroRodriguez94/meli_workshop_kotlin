@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+    <TextView
+        style="@style/title_text"
+        android:text="@string/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/subtitle_text"
+        android:text="@string/amount_subtitle"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        style="@style/title_text"
+        android:id="@+id/tvAmount"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        style="@style/shimmer_skeleton" />
+
+    <TextView
+        style="@style/subtitle_text"
+        android:text="@string/payment_method_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/llPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/item_image_text" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/subtitle_text"
+        android:text="@string/bank_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/llCardIssuer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/item_image_text" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/subtitle_text"
+        android:text="@string/payer_cost_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/llInstallments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/item_title_subtitle" />
+    </LinearLayout>
+</LinearLayout>

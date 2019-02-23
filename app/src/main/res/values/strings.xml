@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MobilePayments</string>
+    <string name="card_issuers_title">Select your bank</string>
+    <string name="payment_method_title">Select a payment method</string>
+    <string name="installments_title">Select the amount of installments</string>
+    <string name="confirm">Confirm</string>
+    <string name="ars">$</string>
+    <string name="ars_price">$ %1$s</string>
+    <string name="amount_holder">0,00</string>
+    <string name="transactionOk">The transaction was successful</string>
+    <string name="transactionFailed">An error occurred while making the payment, retry again</string>
+    <string name="amount_input">Enter the amount</string>
+    <string name="summary">Summary</string>
+    <string name="amount_subtitle">Amount:</string>
+    <string name="payment_method_subtitle">Payment method:</string>
+    <string name="bank_subtitle">Bank:</string>
+    <string name="payer_cost_subtitle">Installments:</string>
+    <string name="zero">0</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="back">Backspace</string>
+    <string name="empty_state_connection_error">A communication error has occurred, retry again</string>
+    <string name="empty_state_placeholder">%1$s not found</string>
+    <string name="empty_state_payment_method">Payment methods</string>
+    <string name="empty_state_bank">Banks</string>
+    <string name="empty_state_installments">Installments</string>
+</resources>

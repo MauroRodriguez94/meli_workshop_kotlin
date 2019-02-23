@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PagosMobile</string>
+    <string name="card_issuers_title">Seleccioná tu banco</string>
+    <string name="payment_method_title">Seleccioná un medio de pago</string>
+    <string name="installments_title">Seleccioná la cantidad de cuotas</string>
+    <string name="confirm">Confirmar</string>
+    <string name="ars">$</string>
+    <string name="ars_price">$ %1$s</string>
+    <string name="amount_holder">0,00</string>
+    <string name="transactionOk">La transacción se realizó exitosamente</string>
+    <string name="transactionFailed">Ocurrió un error al realizar el pago, reintentá nuevamente</string>
+    <string name="amount_input">Ingresá el monto</string>
+    <string name="summary">Resumen</string>
+    <string name="amount_subtitle">Monto:</string>
+    <string name="payment_method_subtitle">Medio de pago:</string>
+    <string name="bank_subtitle">Banco:</string>
+    <string name="payer_cost_subtitle">Cuotas:</string>
+    <string name="zero">0</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="back">Retroceso</string>
+    <string name="empty_state_connection_error">Se ha producido un error de comunicación, reintentá nuevamente</string>
+    <string name="empty_state_placeholder">No se encontraron %1$s</string>
+    <string name="empty_state_payment_method">medios de pago</string>
+    <string name="empty_state_bank">bancos</string>
+    <string name="empty_state_installments">cuotas</string>
+</resources>
